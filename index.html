@@ -313,14 +313,16 @@ footer { background: #020d1a; border-top: 1px solid var(--border); padding: 26px
   <div class="logo">
     <img src="logo-des.png" alt="DES logo">
   </div>
-  <nav class="nav-main">
-    <a href="#o-nama">O nama</a>
-    <a href="#sto-nudimo">Djelatnosti</a>
-    <a href="#kontakt">Kontakt</a>
-  </nav>
-  <div class="nav-icons">
-    <button class="nav-icon-btn" onclick="document.querySelector('.menu-overlay').classList.toggle('open')" title="Izbornik">☰</button>
-    <button class="nav-icon-btn" onclick="document.querySelector('.search-overlay').classList.toggle('open'); document.querySelector('.search-input').focus()" title="Pretraži">🔍</button>
+  <div style="display:flex;align-items:center;gap:4px;margin-left:auto;">
+    <nav class="nav-main">
+      <a href="#o-nama">O nama</a>
+      <a href="#sto-nudimo">Djelatnosti</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="nav-icons">
+      <button class="nav-icon-btn" onclick="document.querySelector('.menu-overlay').classList.toggle('open')" title="Izbornik">☰</button>
+      <button class="nav-icon-btn" onclick="document.querySelector('.search-overlay').classList.toggle('open'); document.querySelector('.search-input').focus()" title="Pretraži">🔍</button>
+    </div>
   </div>
 </header>
 
